@@ -1,0 +1,7 @@
+.gitignore
+archiv/
+data/
+downloads/
+logs/
+.idea/
+img/

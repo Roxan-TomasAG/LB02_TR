@@ -1,4 +1,7 @@
 img {
-    opacity: 80%;
-;
+   max-height: 528px;
+    max-width: 940px;
+    min-width: 940px;
+    min-height: 528px;
+    align-content: center;
 }

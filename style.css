@@ -25,3 +25,21 @@ body {
     padding-left: 15px;
     padding-top: 5px;
 }
+
+.contact_form{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.row{
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.thankyou{
+    width: 320px;
+    height: 420px;
+    margin-left: 50px;
+    margin-top: -90px;
+}

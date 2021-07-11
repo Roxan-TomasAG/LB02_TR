@@ -31,7 +31,39 @@
 
 <h2>Contact</h2>
 
+<form class="contact_form">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Kontakt Details</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Vorname">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Nachname">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Begründung für die Kontaktaufnahme</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Begründung</option>
+            <option>Reservation</option>
+            <option>Offerte</option>
+            <option>Kaffeebohnen bestellen</option>
+            <option>Spontanbewerbung</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Kurzbeschreibung</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Absenden</button>
+</form>
 
+<video class="thankyou" controls loop>
+    <source src="../animation_thank_you.mp4" type="video/mp4">
+</video>
 
 </body>
 </html>

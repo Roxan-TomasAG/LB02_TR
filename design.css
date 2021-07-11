@@ -55,3 +55,15 @@ p {
 .btn-light{
     margin-left: 40px;
 }
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 45px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
